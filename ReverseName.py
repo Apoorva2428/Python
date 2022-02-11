@@ -1,0 +1,5 @@
+print("Enter your first name")
+n1=str(input())
+print("Enter your last name")
+n2=str(input())
+print("Writing your name in reverse order",n2,n1)
