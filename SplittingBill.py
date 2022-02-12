@@ -1,0 +1,7 @@
+bill=int(input("Enter the amount to be paid:"))
+tip=int(input("Enter tip percentage:"))
+split=int(input("In how many peoples you want to split the bill:"))
+tip_added=int(bill+(bill*tip/100))
+splitting=float(tip_added/split)
+final=round(splitting,2)
+print("Each one of you have to pay",(final))
