@@ -91,14 +91,14 @@ print("Area of Rectangle is : ",r.area())"""
 
 class Circle():
     def __init__(self, r):
-        self.radius = r
+        self.radius =8 
 
     def area(self):
         return self.radius**2*3.14
     
     def perimeter(self):
         return 2*self.radius*3.14
-
+ 
 radius = int(input("Enter radius of circle: "))
 circle = Circle(radius)
 print(circle.area())
